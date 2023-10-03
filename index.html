@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="background-image">
+      <div class="odin">
+        <img alt="odin logo" src="Assets/odin-lined.png">
+        ODIN
+      </div>
+    </div>
+    <div class="right-div">
+      <div class="p1">Sign up! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+      <div class="form">
+        <legend>Let's Do This</legend>
+      <form action="">
+        <fieldset>
+          <div class="form-row">
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" id="first_name">
+          </div>
+          <div class="form-row">
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name">
+          </div>
+          <div class="form-row error-container">
+            <label for="email">Email:</label>
+            <input required type="email" name="email" id="email" autocomplete="email" placeholder=" ">
+            <div class="error-message" id="email-error">*Please enter a valid email address</div>
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" pattern="^(?:\+1\s?)?(\d{3}[-\s]?\d{3}[-\s]?\d{4})$">
+          </div>
+          <div class="form-row">
+            <label for="password">Password:</label>
+            <input required type="password" name="password" id="password" autocomplete="new-password" placeholder=" ">
+          </div>
+          <div class="form-row">
+            <label for="confirm_password">Confirm Password:</label>
+            <input required type="password" name="confirm_password" id="confirm_password" autocomplete="new-password" placeholder=" ">
+          </div>
+        </fieldset>
+        </form>
+      </div>
+      <div class="bottom">
+        <input type="submit" value="Create Account">
+        <h2>Already have an account? <a href="url">Log in</a></h2>
+      </div>
+      
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
